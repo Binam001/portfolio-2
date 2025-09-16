@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/About'
 import Skills from './Components/Skills/Skills'
