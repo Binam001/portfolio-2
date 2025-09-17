@@ -62,7 +62,7 @@ const About = () => {
             />
           </h3>
           {/* About Me Paragraph */}
-          <p className="text-base sm:text-lg md:text-lg text-gray-400 my-5 leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-gray-400 my-5 leading-relaxed">
             I am a Computer Engineering graduate with hands-on experience in React and basic backend development (Node.js/Express). Enthusiastic about web and mobile app development, I have also worked on a small AI/ML project using Python. I am seeking an internship or training opportunity to enhance my skills and gain practical experience, and I am eager to contribute to an AI-based internship.
           </p>
           {/* Resume Button */}

@@ -67,7 +67,7 @@ const Navbar = () => {
                 } group-hover:border-b-[#8245ec] hover:border-b-[#8245ec]`}
               >
                 <button
-                  className="cursor-pointer hover:text-[#8245ec] transition-colors"
+                  className="text-lg cursor-pointer hover:text-[#8245ec] transition-colors"
                   onClick={() => handleMenuItemClick(item.id)}
                 >
                   {item.label}

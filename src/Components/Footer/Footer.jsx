@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
       <div className="container mx-auto text-center">
         {/* Name / Logo */}
-        <h2 className="text-xl font-semibold text-purple-500">Binam Shrestha</h2>
+        <h2 className="text-2xl font-semibold text-purple-500">Binam Shrestha</h2>
 
         {/* Navigation Links - Responsive */}
         <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
@@ -26,7 +26,7 @@ const Footer = () => {
             <button
               key={index}
               onClick={() => handleScroll(item.id)}
-              className="hover:text-purple-500 text-sm sm:text-base my-1"
+              className="hover:text-purple-500 text-md sm:text-lg my-1"
             >
               {item.name}
             </button>
@@ -52,14 +52,14 @@ const Footer = () => {
           ))}
 
           <div className="w-0.5 bg-[#8245ec]"></div>
-          <div className="flex gap-x-2">
+          <div className="flex items-center gap-x-2">
             <FaPhoneAlt className="text-xl" />
-            <span className="">+977-9865250834</span>
+            <span className="text-lg">+977-9865250834</span>
           </div>
         </div>
 
         {/* Copyright Text */}
-        <p className="text-sm text-gray-400 mt-6">
+        <p className="text-md text-gray-400 mt-6">
           © 2025 Binam Shrestha. All rights reserved.
         </p>
       </div>
