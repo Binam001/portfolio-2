@@ -120,7 +120,7 @@ const Navbar = () => {
             {menuItems.map((item) => (
               <li
                 key={item.id}
-                className={`cursor-pointer hover:text-white ${
+                className={`text-xl cursor-pointer hover:text-white ${
                   activeSection === item.id ? "text-[#8245ec]" : ""
                 }`}
               >
@@ -131,7 +131,7 @@ const Navbar = () => {
             ))}
 
             {/* Social Icons (Mobile) */}
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 mt-4">
               <a
                 href="https://github.com/codingmastr"
                 target="_blank"
