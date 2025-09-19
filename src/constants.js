@@ -21,6 +21,7 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import blenderLogo from './assets/tech_logo/blender.png';
 import shaduiLogo from './assets/tech_logo/shadui.png';
+import expoLogo from './assets/tech_logo/expo.png';
 
 // Project images
 import fourthsemhomepageImage from './assets/project-image/4th-sem-homepage.jpg';
@@ -44,6 +45,7 @@ export const SkillsInfo = [
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'GSAP', logo: gsapLogo },
       { name: 'Shad UI', logo: shaduiLogo },
+      { name: 'Expo', logo: expoLogo },
     ],
   },
   {
