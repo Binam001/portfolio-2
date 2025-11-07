@@ -80,43 +80,43 @@ export const SkillsInfo = [
   },
 ];
 
-  export const projectsList = [
-    {
-      id: 0,
-      title: "Dynamic Code Visualizer",
-      logo: dynamiccodevisualizerLogo,
-      semester: "8th Semester Project",
-      date: "May 2025 - July 2025",
-      description:
-        "A web-based tool to visualize code execution that provides an interactive interface to help users understand code flow and logic through step-by-step execution and sorting visualizations.",
-      image: eighthsemhomepageImage,
-      tags: ["Next JS", "Tailwind CSS", "Piston API", "TypeScript", "LLMs API"],
-      github: "https://github.com/Binam001/dynamic-code-visualizer-v2",
-      // webapp: "https://githubprofiledetective.netlify.app/",
-    },
-    {
-      id: 1,
-      title: "Navigate The City",
-      logo: navigatethecityLogo,
-      semester: "6th Semester Project",
-      date: "May 2024 - Sept 2024",
-      description:
-        "A web-based application that tracks public vehicles using driver mobile GPS and seat booking system. It has routing machine and some map features.",
-      image: sixthsemhomepageImage,
-      video: navigatethecityVideo,
-      tags: ["React JS", "Tailwind CSS", "JavaScript", "leaflet", "openSteetMap API"],
-      github: "https://github.com/Binam001/Navigate-The-City",
-    },
-    {
-      id: 2,
-      title: "Online Attendance Management System",
-      logo: onlineattendancemanagementsystemLogo,
-      semester: "4th Semester Project",
-      date: "May 2023 - Sept 2023",
-      description:
-        "A web-based application that tracks student’s attendance with visualization of subject wise attendance.",
-      image: fourthsemhomepageImage,
-      tags: ["HTML", "BootStrap", "JavaScript", "PHP", "mySQL"],
-      github: "https://github.com/Binam001/Project-OAMS",
-    },
-  ]
+export const projectsList = [
+  {
+    id: 0,
+    title: "Dynamic Code Visualizer",
+    logo: dynamiccodevisualizerLogo,
+    semester: "8th Semester Project",
+    date: "May 2025 - July 2025",
+    description:
+      "A web-based tool to visualize code execution that provides an interactive interface to help users understand code flow and logic through step-by-step execution and sorting visualizations.",
+    image: eighthsemhomepageImage,
+    tags: ["Next JS", "Tailwind CSS", "Piston API", "TypeScript", "LLMs API"],
+    github: "https://github.com/Binam001/dynamic-code-visualizer-v2",
+    // webapp: "https://githubprofiledetective.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "Navigate The City",
+    logo: navigatethecityLogo,
+    semester: "6th Semester Project",
+    date: "May 2024 - Sept 2024",
+    description:
+      "A web-based application that tracks public vehicles using driver mobile GPS and seat booking system. It has routing machine and some map features.",
+    image: sixthsemhomepageImage,
+    video: navigatethecityVideo,
+    tags: ["React JS", "Tailwind CSS", "JavaScript", "leaflet", "openSteetMap API"],
+    github: "https://github.com/Binam001/Navigate-The-City",
+  },
+  {
+    id: 2,
+    title: "Online Attendance Management System",
+    logo: onlineattendancemanagementsystemLogo,
+    semester: "4th Semester Project",
+    date: "May 2023 - Sept 2023",
+    description:
+      "A web-based application that tracks student’s attendance with visualization of subject wise attendance.",
+    image: fourthsemhomepageImage,
+    tags: ["HTML", "BootStrap", "JavaScript", "PHP", "mySQL"],
+    github: "https://github.com/Binam001/Project-OAMS",
+  },
+]
