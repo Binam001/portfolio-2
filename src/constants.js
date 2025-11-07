@@ -92,7 +92,8 @@ export const projectsList = [
     image: eighthsemhomepageImage,
     tags: ["Next JS", "Tailwind CSS", "Piston API", "TypeScript", "LLMs API"],
     github: "https://github.com/Binam001/dynamic-code-visualizer-v2",
-    // webapp: "https://githubprofiledetective.netlify.app/",
+    webapp: "https://dynamic-code-visualizer-v2.vercel.app/",
+    webapp: "https://dynamic-code-visualizer-v2.vercel.app/",
   },
   {
     id: 1,
@@ -106,6 +107,7 @@ export const projectsList = [
     video: navigatethecityVideo,
     tags: ["React JS", "Tailwind CSS", "JavaScript", "leaflet", "openSteetMap API"],
     github: "https://github.com/Binam001/Navigate-The-City",
+    webapp: "https://navigate-the-city.vercel.app/",
   },
   {
     id: 2,
@@ -118,5 +120,6 @@ export const projectsList = [
     image: fourthsemhomepageImage,
     tags: ["HTML", "BootStrap", "JavaScript", "PHP", "mySQL"],
     github: "https://github.com/Binam001/Project-OAMS",
+    // webapp: "https://navigate-the-city.vercel.app/",
   },
 ]

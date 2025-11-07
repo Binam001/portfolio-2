@@ -95,7 +95,7 @@ const Project = () => {
 
       <div className="my-6 md:my-10 w-full flex justify-center">
         <a
-          href='https://github.com/Binam001?tab=repositories'
+          href="https://github.com/Binam001?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-purple-600 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
@@ -111,7 +111,9 @@ const Project = () => {
           onClick={handleCloseModal}
         >
           <div
-            className={`bg-gray-900 rounded-xl shadow-2xl w-[90%] h-[80%] mt-10 max-w-3xl overflow-y-scroll md:overflow-hidden relative transition-all duration-300 ease-out transform ${modalOpen ? 'scale-100 opacity-100' : 'scale-90 opacity-0'}`}
+            className={`bg-gray-900 rounded-xl shadow-2xl w-[90%] h-[80%] mt-10 max-w-3xl overflow-y-scroll md:overflow-hidden relative transition-all duration-300 ease-out transform ${
+              modalOpen ? "scale-100 opacity-100" : "scale-90 opacity-0"
+            }`}
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-between py-4 px-4 md:px-8">
@@ -128,7 +130,7 @@ const Project = () => {
 
             <div className="flex flex-col md:flex-row">
               <div className="px-3 md:p-6 w-full md:w-[45%]">
-                <p className="text-sm md:text-md text-gray-300">
+                <p className="text-sm md:text-base text-gray-300">
                   {selectedProject.semester}
                 </p>
                 <p className="text-xs md:text-sm text-gray-500 my-2">
@@ -166,15 +168,25 @@ const Project = () => {
                     className="w-full h-[70%] object-cover rounded-xl"
                   />
                 )}
-                <div className="my-6 md:my-10">
+                <div className="my-6 space-x-4 md:my-10">
                   <a
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full bg-purple-600 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="w-full bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Code
                   </a>
+                  {selectedProject.webapp ? (
+                    <a
+                      href={selectedProject.webapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    >
+                      Live Demo
+                    </a>
+                  ) : null}
                 </div>
               </div>
             </div>
