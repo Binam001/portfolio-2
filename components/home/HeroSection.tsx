@@ -25,7 +25,7 @@ const HeroSection = () => {
         </Link>
         <p>nepal.</p>
       </div>
-      <WorkSection />
+      {/* <WorkSection /> */}
       <div className="">
         <Link
           target="_blank"
